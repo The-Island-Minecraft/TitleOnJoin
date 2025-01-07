@@ -1,0 +1,10 @@
+name: TitleForYou
+version: '1.0-SNAPSHOT'
+main: me.whityfox.titleForYou.TitleForYou
+api-version: '1.21'
+commands:
+  settitle:
+    description: Set the join title and subtitle.
+    usage: /settitle <title> <subtitle>
+    permission: jointitle.settitle
+    permission-message: You do not have permission to use this command.
